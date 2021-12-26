@@ -1,0 +1,32 @@
+.a{
+	display: flex;
+	width:80%; 
+	height:150px
+}
+.b{
+	width: 16%;
+	border:1px solid black;
+	margin: 5px;
+}
+.e{
+	color: #FF9900;
+	text-align: center;
+}
+.g{
+	color: red;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+}
+.c{
+
+}
+.b:hover{
+	border: solid #FF9900;
+}
+.e:hover{
+	color: black;
+}
+.g:hover{
+	color: black;
+}

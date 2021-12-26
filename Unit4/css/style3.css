@@ -1,0 +1,15 @@
+.d1{
+	display: flex;
+	font-weight: 700;
+	right: 1000px;
+}
+.d1-2{
+	display: flex;
+	text-align: right;
+	width: 40%;
+}
+.c{
+	color: black;
+	text-align: right;
+	left: 20px;
+}

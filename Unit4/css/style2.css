@@ -1,0 +1,32 @@
+.a{
+			display: flex;
+			width: 80%;
+            background: #F5F5F5;
+            height:100px;
+		}
+		a{
+			text-align: middle;
+			font-size: 20px;
+		}
+		.b{
+			width: 25%;
+		}
+		.e{
+			font-weight: 700;
+			color: black;
+		}
+		.g{
+			height: 50%;
+			text-align: left;
+			padding-left: 20px;
+		}
+		.e:hover{
+			color:#0099FF;
+		}
+		.c{
+			height: 50%;
+			text-align: middle;
+		}
+		.g p{
+			margin: 0;
+		}
