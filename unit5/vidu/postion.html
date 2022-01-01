@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale">
+	<title>Thiết lập postion</title>
+	<style>
+		img{
+			width: 200px;
+			height: 100px;
+			position: relative;
+			top: 100px;
+			left: 500px;
+		}
+		.relative{
+			width: 500px;
+			height: 300px;
+			border: 1px solid black;
+			position: relative;
+		}
+		.absolute{
+			width: 100px;
+			height: 100px;
+			background-color: green;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		body{
+			height: 900px;
+		}
+		#menu ul li{
+			float: left;
+			padding: 10px;
+			list-style: none;
+		}
+		#menu ul{
+			height: 35px;
+			background-color: red;
+			color: white;
+		}
+		#menu{
+			position:fixed;
+			top:0;
+		}
+	</style>
+</head>
+<body>
+	<img src="../Unit4/images/1.png">
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam, dignissimos maxime magnam enim, optio corporis sit. Nulla itaque accusantium similique laborum laudantium, dolorum, repellat, at a placeat animi aliquam sint est doloremque facere magni voluptatibus neque. Atque laudantium quo expedita ut nostrum aliquid esse. Magnam beatae, fuga asperiores ducimus?</p>
+	<div class="relative">
+		<div class="absolute">
+			
+		</div>
+	</div>
+	<div id="menu">
+		<ul>
+			<li>Trang chủ</li>
+			<li>Thông tin</li>
+			<li>Tìm kiếm</li>
+		</ul>
+	</div>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Neque voluptatibus sapiente soluta et vel, tempore impedit veritatis consequatur necessitatibus praesentium sequi commodi similique in consectetur eveniet deserunt magni eum unde? Deleniti dolorem dignissimos sapiente, et mollitia suscipit eligendi obcaecati doloribus in quae iste, odio accusantium omnis dolor eveniet vitae voluptatem vel sed odit provident nulla corporis quasi! Ipsam repellat necessitatibus fugiat voluptate reiciendis, doloremque eligendi labore velit omnis enim quos harum, rem, nisi, neque error tempora delectus impedit iusto. Vitae pariatur voluptate dolorem quia obcaecati. Voluptatum ex sunt atque deleniti. Odio, voluptatem deleniti asperiores blanditiis, nostrum a nisi dolores illum!</p>
+</body>
+</html>

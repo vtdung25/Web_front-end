@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zindex và overflow</title>
+	<style>
+		#div{
+			width: 300px;
+			height: 150px;
+			color: white;
+			position: relative;
+		}
+		#div1{
+			background-color: red;
+			top: 0;
+			left: 0;
+			z-index: 3;
+		}
+		#div2{
+			background-color: blue;
+			top: -50px;
+			left: 20px;
+			z-index: 2;
+		}
+		#div3{
+			background-color: green;
+			top: -100px;
+			left: 40px;
+			z-index: 1;
+		}
+		#div4{
+			border: 1px solid red;
+			color: black;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<div id="div1">
+		Div1
+	</div>
+	<div id="div2">
+		Div2
+	</div>
+	<div id="div3">
+		Div3
+	</div>
+	<div id="div4">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, accusamus magni qui placeat laudantium libero expedita quos ullam modi tempore nulla illum architecto consequuntur ipsa velit dolores impedit explicabo ad excepturi saepe quae. Iure, ratione voluptatibus? Quasi, corrupti hic provident. Odio, architecto tenetur inventore tempore provident illo voluptatibus! Accusantium, architecto. Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Magni incidunt aliquam possimus eius, corrupti dolorem, at dignissimos reiciendis delectus, exercitationem suscipit id, amet vero! Nisi non qui repellat, quibusdam dolores ut est animi eos vitae quae sint voluptas quaerat dignissimos saepe accusantium beatae, impedit, quos dolorem magnam at quo. Vel?
+	</div>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/c71EE_a4AuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
