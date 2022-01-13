@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bài 2</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		div{
+			display: flex;
+			margin-top:12px;
+   			height: 80px;
+   		
+		}
+		button{
+			background-color: #1b8cf1;
+			color: white;
+			margin: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		
+			<p><b>Cỡ chữ</b></p>
+			<div>
+				<button onclick="macDinh()">Mặc định</button>
+				<button onclick="chuLon()">Chữ lớn</button>
+				<button onclick="chuNho()">Chữ nhỏ</button>
+			</div>
+			
+	</div>
+	<p id="p" style="font-size: 16px">
+		<b>Khi người dùng nhấp chuột vào nút Lớn hoặc Nhỏ sẽ tăng hoặc giảm cỡ chữ trên hình vẽ. Cuối cùng họ cũng có thể nhấn vào nút Mặc Định để trả cỡ chữ về giá trị ban đầu. Chúng ta sẽ cho phép người dùng nhấp chuột nhiều lần vào nút, và mỗi lần nhấp cỡ chữ sẽ tăng hoặc giảm dần lên. Ta sẽ cho tăng cỡ chữ lên 40% mỗi khi người dùng nhấp chuột vào nút “Lớn” hoặc nhỏ đi 40% mỗi khi nhấp chuột vào nút “Nhỏ”.</b>
+	</p>
+	<script>
+		function macDinh(){
+			document.getElementById('p').style.fontSize='16px';
+		}
+
+		function chuLon(){			
+			var a = document.getElementById('p').style.fontSize;
+			b = a.substring(0 , a.length-2);
+			document.getElementById('p').style.fontSize=(parseInt(b)*1.4).toString() + 'px';	
+		}
+
+		function chuNho(){
+			var a = document.getElementById('p').style.fontSize;
+			b = a.substring(0 , a.length-2);
+			document.getElementById('p').style.fontSize=(parseInt(b)*0.6).toString() + 'px';
+		}
+	</script>
+</body>
+</html>

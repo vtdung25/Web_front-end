@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bài 1</title>
+	<style>
+		.jsform{
+			width: 97%;
+			height: 50px;
+			line-height: 50px;
+			margin: 20px;
+			font-size: 25px;
+			text-align: center;
+			box-shadow: 2px 3px 10px black;
+		}
+		.jsform:hover{
+			background-color: #51c4ff;
+		}
+		button{
+			background-color: #ff9b00;
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+	<form name="form">
+		<p align="center">
+			<font size="6" ><b>Học lập trình tại Zent Coding School</b></font>
+		</p>		
+		<div class="jsform">
+			<input id="checkbox1" name="check"  type="checkbox"><label for="checkbox1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, rerum!</label>
+		</div>
+		<div class="jsform">
+			<input id="checkbox2" name="check" type="checkbox"><label for="checkbox2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, rerum!</label>
+		</div>
+		<div  class="jsform">
+			<input id="checkbox3" name="check" type="checkbox"><label for="checkbox3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, rerum!</label>
+		</div>
+		<div class="jsform">
+			<input id="checkbox4"name="check" type="checkbox"><label for="checkbox4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, rerum!</label>
+		</div>
+		<div class="jsform">
+			<input id="checkbox5" name="check" type="checkbox"><label for="checkbox5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, rerum!</label>
+		</div>
+		<div class="jsform">
+			<input id="checkbox6" name="check" type="checkbox"><label for="checkbox6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, rerum!</label>
+		</div>
+		<div  class="jsform">
+			<input id="checkbox7" name="check" type="checkbox"><label for="checkbox7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, rerum!</label>
+		</div>
+		<div  class="jsform">
+			<input id="checkbox7" name="check" type="checkbox"><label for="checkbox7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, rerum!</label>
+		</div>
+	</form>
+	<center>
+		<button onclick="checkAll()"><b>Check All</b></button>
+		<button onclick ="unCheckAll()"><b>UnCheck All</b></button>
+	</center>
+
+	<script type="text/javascript">
+		function checkAll(){
+			var length = document.getElementsByTagName('input').length
+			for(i=0; i<length; i++){
+				document.form.check[i].checked=true;
+			}
+		}
+
+		function unCheckAll(){
+			var length = document.getElementsByTagName('input').length
+			for(i=0; i<length; i++){
+				document.form.check[i].checked=false;
+			}
+		}	
+	</script>
+
+</body>
+</html>
