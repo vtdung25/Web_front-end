@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bài 13.2</title>
+	<link rel="stylesheet" href="../css/ex02.css">
+</head>
+<body>
+	<div id="bgimg">
+		<div id="contain">
+			<div class="insert" >
+				<p>Họ và tên :</p>
+				<input id="name" onblur="addname()" class="import" type="text"  placeholder="Nhập họ tên ...">
+				<p class="error ative-errol"></p>
+			</div>
+			<div class="volume">
+				<p>Giới tính :</p>
+				<input id="mail" class="gener" name="gener" type="radio" ><label for="mail">Nam</label>
+				<input id="female" class="gener" name="gener" type="radio"><label for="female">Nữ</label>
+				<input id="other" class="gener" name="gener" type="radio"><label for="other">Khác</label>
+			</div>
+			<div class="insert">
+				<p>Email :</p>
+				<input id="email" name="email" onblur="email()" class="import" type="email" placeholder="Nhập email ...">
+				<p class="error ative-errol"></p>
+			</div>
+			<div class="insert">
+				<p>Số điện thoại :</p>
+				<input id="phone" name="phone" onblur="numberphone()" class="import" type="text" placeholder="Nhập số điện thoại ...">
+				<p class="error ative-errol"></p>
+			</div>
+			<div class="insert">
+				<p>Mật khẩu :</p>
+				<input id="pass" name="pass" onblur="password()" class="import" type="password" placeholder="Password ...">
+				<p class="error ative-errol"></p>
+			</div>
+			<div class="insert">
+				<p>Xác nhận mật khẩu :</p>
+				<input id="Confirmpass" name="Confirmpass" onblur="Confirmpass()" class="import" type="password" placeholder="Confirm password ...">
+				<p class="error ative-errol"></p>
+			</div>
+		</div>
+		<div id="btn">
+			<button  class="selection" onclick="regis()">Đăng ký</button>
+			<button id="clear" class="selection">Xóa trắng</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/ex02.js"></script>
+</body>
+</html>	
