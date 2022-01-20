@@ -2,7 +2,7 @@ var SlideIndex = 1;
 SlideShow();
 
 setInterval(function() {
-	SlideIndex = SlideIndex + 1;
+	SlideIndex = SlideIndex +1;
 	SlideShow();
 },5000);
 
@@ -29,7 +29,6 @@ document.getElementById('next').addEventListener('click',function(){
 	SlideIndex = SlideIndex + 1;
 	SlideShow();
 })
-
 document.getElementById('prev').addEventListener('click',function(){
 	SlideIndex = SlideIndex - 1;
 	SlideShow();

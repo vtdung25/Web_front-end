@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#bgimg{
+	width: 100%;
+	padding-top: 50px;
+	height: 100vh;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../images/hinh_nen.png');
+}
+img{
+	width: 100%;
+	position: absolute;
+	background-position: center;
+	object-fit: cover;
+	height: 100%;
+}
+#contain{
+	width: 60%;
+	margin-left: 20%;
+	padding: 	20px;
+	border: 3px solid white;
+	border-radius: 10px;
+}
+#btn{
+	text-align: center;
+	margin-top: 20px;	
+}
+.selection{
+	background-color: #027ad9;
+    font-size: 22px;
+    padding: 4px;
+    margin-left: 130px;
+    border-radius: 5px;
+    border: 3px solid black;
+    cursor: pointer;
+
+}
+.error{
+	display: none;
+	color: red;
+	width: 23%;
+    font-size: 15px;
+}
+.ative-errol{
+	display: block;
+}
+p{
+	color: white;
+	font-size:23px;
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 0;	
+    width: 30%;
+}
+.insert{
+	display: flex;
+}
+.volume{
+	display: flex;
+}
+.import{
+	width: 40%;
+    height: 35px;
+    border: 3px solid black;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.gener{
+	margin-left: 10px;
+	margin-top: 25px;
+}
+label{
+	color: white;
+	line-height: 50px;
+	margin-top: 6px;
+}
