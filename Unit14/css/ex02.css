@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+}
+#bgr-img{
+	position: relative;	
+}
+#Accordion{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 30%;
+}
+#Accordion #big{
+	font-family: 'Sriracha', cursive;
+	font-size: 54px;
+	font-style: italic;
+}
+#big span{
+	font-size: 20px;
+	font-style: italic;
+	color: #12b412;
+}
+#posts{
+	width: 50%;
+	margin-top: 15%;
+	margin-left: 25%;
+	height: 376px;
+	position: absolute;
+	background-color: #323232;
+	border: 3px;
+}
+p{
+	color: white;
+	font-size: 20px;
+}
+.tab{
+}
+.title{
+	height: 50px;
+	display: flex;
+	position: relative;
+	background: linear-gradient(to top, #242323, #434040);
+}
+.add{
+	line-height: 50px !important;
+	font-size: 40px;
+	margin-left: -6px;
+    position: absolute;
+    cursor: pointer;
+    color: #14d314;
+}
+.block{
+	line-height: 50px !important;
+	font-size: 40px;
+	margin-left: -6px;
+    position: absolute;
+    cursor: pointer;
+    color: #14d314;
+}
+.title p{
+	font-size: 25px;
+	margin-left: 45px;
+	line-height: 50px;
+}
+.document{
+	display: none;
+	padding: 30px;
+	background: linear-gradient(to top, #242323, #434040);
+}
+.ative .title p{
+	color: #0eb40e;
+}
+.ative .document{
+	display: block;
+}
+.block{
+	display: none!important;
+}
+.add{
+	display: inline-block!important;
+}
+.ative .add{
+	display: none !important;
+}
+.ative .block{
+	display: block!important;
+}
