@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	$('.img_album').click(function(){
+		$('#img_show').attr('src',$(this).attr('src'));
+		$('.title').text($(this).next().html())
+		$('.show').addClass('ative');
+	})
+	$('.icon').click(function(){
+		$('.show').removeClass('ative');
+	})
+	$('#opacity').click(function(){
+		$('.show').removeClass('ative');
+	})
+})
