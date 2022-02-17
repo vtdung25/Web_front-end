@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Fredoka One', cursive;
+}
+.contact{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eeeded;
+    position
+    width: 100%;
+}
+.contacts{
+	justify-content: center;
+	
+}
+.contacts i{
+	font-size: 20px;
+    margin-right: 20px;
+}
+.firt_part{
+	padding-left: 10% !important;
+	padding-right: 10% !important;
+	height: 60px;
+    line-height: 60px;
+}
+.search{
+	padding-top: 10px;
+}
+.menu_min{
+	position: fixed;
+    top: 105px;
+    z-index: 1;
+    background-color: #eeeded;
+    width: 100%;
+    display: none;
+}
+form{
+	background-color: #ea8093;
+    border: 0;
+    border-radius: 20px;
+}
+input{
+	width: 84% !important;
+    border-color: #f27b90 !important;
+}
+/*.btn{
+	border:0;
+}
+.btn i{
+	font-size: 20px;
+}
+.cart{
+	position: relative;
+	text-align: right;
+}
+.cart i{
+	font-size: 25px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.bars{
+	display: none;
+}
+.times{
+	display: none;
+}
+.ative{
+	display: block !important;
+}*/
+.menu{
+    background-color: #eeeded;
+    width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.menu ul{
+	justify-content: center;
+	border-bottom: 0 !important;
+}
+.menu a{
+	color: black;
+}
+.menu a:hover{
+	color: #d9576e;
+}
+.total_title{
+	padding-top: 10%;
+	background-color: #93cbd3;
+	font-family: 'Fredoka One', cursive;
+	position: relative;
+}
+.top {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5vh;
+	object-fit: cover;
+	position: absolute;	
+}
+.bottom{
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30vh;
+	object-fit: cover;
+	position: absolute;	
+}
+.center{
+	position: absolute;
+	left: 100px;
+    width: 60px;
+    bottom: 65px;	
+}
+.total_title_left{
+	padding-left: 10% !important;
+	padding-top: 5% !important;
+}
+.total_title_left h1{
+	font-size: 50px;
+}
+.total_title_left h5{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.total_title_left button{
+	border: 0;
+    border-radius: 20px;
+    background-color: #e84966;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.total_title_img img{
+	width: 100%;
+	padding-top: 20px;
+}
