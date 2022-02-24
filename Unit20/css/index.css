@@ -1,0 +1,509 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Fredoka One', cursive;
+}
+.contact{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eeeded;
+    position/*: fixed;
+	top: 0;	
+    z-index: 2;*/
+    width: 100%;
+}
+.contacts{
+	justify-content: center;
+	
+}
+.contacts i{
+	font-size: 20px;
+    margin-right: 20px;
+}
+.firt_part{
+	padding-left: 10% !important;
+	padding-right: 10% !important;
+	height: 60px;
+    line-height: 60px;
+	/*position: fixed;/**/
+	/*top: 0;/*/*
+   /* z-index: 3;
+    background-color: #eeeded;
+    margin-top: 46px;*/
+}
+.search{
+	padding-top: 10px;
+}
+.menu_min{
+	position: fixed;
+    top: 105px;
+    z-index: 1;
+    background-color: #eeeded;
+    width: 100%;
+    display: none;
+}
+form{
+	background-color: #ea8093;
+    border: 0;
+    border-radius: 20px;
+}
+input{
+	width: 84% !important;
+    border-color: #f27b90 !important;
+}
+.btn{
+	border:0;
+}
+.btn i{
+	font-size: 20px;
+}
+.cart{
+	position: relative;
+	text-align: right;
+}
+.cart i{
+	font-size: 25px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.bars{
+	display: none;
+}
+.times{
+	display: none;
+}
+.ative{
+	display: block !important;
+}
+.menu{
+	/*position: fixed;
+    top: 105px;
+    z-index: 1;*/
+    background-color: #eeeded;
+    width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.menu ul{
+	justify-content: center;
+	border-bottom: 0 !important;
+}
+.menu a{
+	color: black;
+}
+.menu a:hover{
+	color: #d9576e;
+}
+.total_title{
+	padding-top: 10%;
+	background-color: #93cbd3;
+	/*margin-top: 180px;*/
+	font-family: 'Fredoka One', cursive;
+	position: relative;
+}
+.top {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5vh;
+	object-fit: cover;
+	position: absolute;	
+}
+.bottom{
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30vh;
+	object-fit: cover;
+	position: absolute;	
+}
+.center{
+	position: absolute;
+	left: 100px;
+    width: 60px;
+    bottom: 65px;	
+}
+.total_title_left{
+	padding-left: 10% !important;
+	padding-top: 5% !important;
+}
+.total_title_left h1{
+	font-size: 50px;
+}
+.total_title_left h5{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.total_title_left button{
+	border: 0;
+    border-radius: 20px;
+    background-color: #e84966;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.total_title_img img{
+	width: 100%;
+	padding-top: 20px;
+}
+.card_group1{
+	margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card1{
+	display: flex;
+    padding-left: 20px;
+    color: black;
+    margin-top: 20px;
+    font-weight: 700;
+	font-family: 'Fredoka One', cursive;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: pink;
+}
+.card1 a{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+.card1 h4{
+	margin-bottom: 75px;
+}
+.card1 img{
+	width: 40%;
+	padding-top: 5px;
+}
+.new_products{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.products_title p{
+	width: 55%;
+    margin-left: 22%;
+}
+.slide_btn{
+	justify-content: center;
+}
+.slide_btn button{
+	border: 0.5px solid;
+	border-radius: 20px;
+	font-weight: 700;
+    margin: 10px;
+}
+.ative_btn{
+	background-color: #e84966 !important;
+    border: 0 !important;
+    color: white !important;
+}
+.card2{
+	background-image: url(img/1.png);
+	background-size: cover;
+	height: auto;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.card2:hover{
+	box-shadow: 0 0 15px 0px;
+}
+.card-block{
+	margin-top: 30px;
+}
+.card{
+	border: 0 !important;
+	padding: 0 !important;
+}
+.card-img-top{
+	width: 160px !important;
+    height: 190px;
+    object-fit: contain;
+    margin-left: 12%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-block{
+	padding-left: 10px;
+}
+.evaluate i{
+	color: #ffcc00;
+}
+.product_name{
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+.product_content{
+	margin-top: 50px;
+}
+.ative_product_content{
+	display: block !important;
+} 
+.product_content1{
+	display: none;
+}
+.product_content1 .row{
+    margin-right: 25px;
+    margin-left: 0;
+}
+.deal{
+	background :linear-gradient( rgba(188, 4, 4, 0.17) 100%, rgba(0, 0, 0, 0.5)100%),url(img/footer1.png);
+	background-size: cover;
+	height: auto;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.bg{
+    padding-top: 100px;
+}
+.deal_title{
+	font-family: 'Fredoka One', cursive;
+}
+.deal_title h2{
+	margin-bottom: 20px;
+    margin-top: 50px;
+}
+.deal_title h6{
+	margin-bottom: 50px;
+}
+.time{
+	display: flex;
+	justify-content: center;
+}
+.time_now{
+	margin: 10px;
+	position: relative;
+}
+.time_now h5{
+	position: absolute;
+    left: 28%;
+    top: 20%;
+    color: white;
+    font-size: 30px;
+}
+.time_now h6{
+	margin-top: 20px;
+}
+h6 span{
+	color: #e84966;
+}
+.img_left{
+	position: relative;
+	margin-top: 100px;
+}
+.img_left img{
+		position:absolute;
+	left: 15px;
+	bottom: -45px;
+	width: 72% !important;
+	object-fit: cover;
+}
+.img_right{
+	margin-top: 100px;
+	position: relative;
+}
+.img_right img{
+	width: calc(100% - 30px) !important;
+	position: absolute;
+	left: 15px;
+	bottom: -45px;
+	object-fit: cover;
+}
+.btn_deal button{
+	margin-top: 20px;
+    border: 0;
+    background-color: #e84966;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.deal_img_top{
+	width: 100%;
+	top:0;
+	left: 0;
+	position: absolute;
+}
+.deal_img_bottom{
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+.collection{
+	margin-bottom: 100px;
+    margin-top: 100px;
+}
+.card-img-overlay{
+	width: 50%;
+	font-family: 'Fredoka One', cursive;
+    margin-left: 50%;
+    margin-top: 15%;
+    color: white;
+}
+.card-img-overlay h3{
+	font-weight: 900;
+    font-size: 35px;
+}
+.card-img-overlay h4{
+	font-weight: 900;
+	font-size: 20px
+}
+.card-img-overlay h4 span{
+	font-size: 30px;
+}
+.card-img-overlay button{
+	padding: 5px;
+    padding-left: 15px;
+    color: white;
+    border: 0;
+    background-color: #e84966;
+    border-radius: 20px;
+    padding-right: 15px;
+}
+.collection_content{
+	padding: 10px !important;
+}
+.author{
+	padding-left: 10px;
+	margin-top: 10px;
+}
+.author i{
+	font-size: 7px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.explain{
+	padding-left: 10px;
+}
+.author p{
+	color: #ccc;
+}
+.author .sp1{
+	color: #e84966;
+}
+.author .sp2{
+	color: black;
+}
+.blog_title{
+	margin-left: 20%;
+	margin-bottom: 35px;
+    margin-top: 100px;
+}
+.explain{
+	font-family: 'Fredoka One', cursive;
+
+}
+.blog_btn button{
+	background-color: #38548b;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+    margin-left: 0;
+    padding-left: 20px;
+}
+.blog_content{
+	padding: 20px !important;
+	height: auto !important;
+}
+.blog_content:hover{
+	box-shadow: 0 0 20px 0px;
+}
+.blog_content img{
+	margin: 0;
+    height: 60%
+}
+@media screen and (max-width: 768px){
+	.bars{
+		display: block;
+	}
+	.menu{
+		display: none;
+	}
+	.card1 img{
+		width: 50%;
+    	padding-top: 90px;
+    }
+    .card-img-top{
+    	width: 220px !important;
+    }
+    .card-img-overlay{
+    	margin-top: 5% !important;
+    }
+    .img_left{
+    	display: none;
+    }
+    .img_right{
+    	display: none;
+    }
+    .time_now h5{
+	    left: 25%;
+	    top: 10%;
+	    font-size: 20px;
+	}
+	.time_now{
+		width: 50px;
+	}
+	.time_now h6{
+		font-size: 13px;
+	}
+	.time_now img{
+		width: 100%;
+	}
+	.contacts{
+		padding: 0 !important;
+	}
+	.contacts h6{
+		font-size: 12px
+	}
+	.contacts i{
+		font-size: 12px;
+		margin-right:0;
+	}
+	.search{
+		display: none;
+	}
+	.cart{
+		justify-content: flex-end;
+    	display: flex;
+    	margin-top: 10%;
+	}
+}
+@media screen and (max-width: 992px){
+	.total_title_left h1{
+		font-size: 30px;
+	}
+	.center{
+		left: 130px;
+	    bottom: 20px;	
+	}
+	.card1 img{
+		width: 50%;
+    	padding-top: 90px;
+    }
+    .card-img-overlay{
+    	width: 100%;
+    	margin-left: 0;
+    	margin-top: 10%;
+    }
+    input {
+    	width: 77% !important;
+    }
+
+	.logo_firt img{
+		width: 100%;
+	}
+}

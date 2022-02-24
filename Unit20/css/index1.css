@@ -48,30 +48,6 @@ input{
 	width: 84% !important;
     border-color: #f27b90 !important;
 }
-/*.btn{
-	border:0;
-}
-.btn i{
-	font-size: 20px;
-}
-.cart{
-	position: relative;
-	text-align: right;
-}
-.cart i{
-	font-size: 25px;
-	cursor: pointer;
-	margin-right: 5px;
-}
-.bars{
-	display: none;
-}
-.times{
-	display: none;
-}
-.ative{
-	display: block !important;
-}*/
 .menu{
     background-color: #eeeded;
     width: 100%;
