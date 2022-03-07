@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shop detail</title>
+	<link rel="stylesheet" href="../assets/library/cssfont/all.min.css">
+	<link rel="stylesheet" href="../assets/library/aos/aos.css">
+	<link rel="stylesheet" href="../assets/css/header_footer.css">
+	<link rel="stylesheet" href="../assets/css/shop-detail.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.14/dist/css/splide.min.css" />
+	<link rel="stylesheet" href="../assets/library/owl_carowsel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="../assets/library/owl_carowsel/assets/owl.theme.default.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  	/>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script type="text/javascript" src="../assets/js/jquery-3.6.0.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+</head>
+<body>
+	<div class="back_to_top">
+		<img src="../assets/images/up-chevron.png" alt="">
+	</div>
+	<div class="header">
+		<div class="container-fluid p-0">
+			<div  data-aos="flip-up" class="Selection">
+				<div class="row">
+					<div class="free_delivery col-xl-8 col-lg-7 ">
+						<p>Thiên đường của vẻ đẹp tự nhiên</p>
+					</div>
+					<div class="language_currency col-xl-4 col-lg-5">
+						<ul>
+						  	<li>
+						    	<a class="language">Ngôn Ngữ<i class="down fas fa-caret-down"></i></a>
+							    <div class="language_content list">
+							      	<div class="a_item">
+							      		<a href="">Tiếng Anh</a>
+							      	</div>
+							      	<div class="a_item" class="a_item">
+							      		<a href="">Tiếng Việt</a>
+							      	</div>
+							    </div>
+						  	</li>
+						  	<li>
+						    	<a class="currency">Tiền Tệ<i class="down fas fa-caret-down"></i></a>
+							    <div class="currency_content list">
+							    	<div class="a_item" class="a_item">
+							      		<a href="">$ Dolar</a>
+							      	</div>
+							      	<div class="a_item">
+							      		<a href="">VN đồng</a>
+							      	</div>
+							    </div>
+						  	</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="headerFix" class="">
+		<div>
+			<div  data-aos="flip-up" class="menu" id="flip_up_menu">
+				<div class="row m-0">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+						<div class="logo">
+							<a href="../index.html"><img class="logo_black" src="../assets/images/logo_chinh.png" alt=""></a>
+							<a href="../index.html"><img class="logo_white" src="../assets/images/logo_phu.png" alt=""></a>
+						</div>
+					</div>
+					<div class="menu_hide col-xl-6 col-lg-7 text-center">
+						<div class="list_menu">
+							<ul>
+								<li><a href="../index.html">Home</a></li>
+							  	<li id="parent_list_shop">
+							    	<a class="Shop"><span tooltip="NEW">Shop<i class="fas down fa-caret-down"></i></span></a>
+								    <div class="list_shop list">
+								      	<ul>
+								      		<li><a href="shop.html">Shop Main</a></li>
+								      		<li><a href="cart.html">Cart</a></li>
+								      		<li><a href="shop-detail.html">Shop detail</a></li>
+								      	</ul>
+								    </div>
+							  	</li>
+							  	<li id="parent_blog_list">
+							  		<a class="blog">Blog<i class="down fas fa-caret-down"></i></a>
+							  		<div class="blog_list list">
+							  			<ul>
+							  				<li><a href="blog.html">Main blog</a></li>
+							  				<li><a href="blog-detail.html">Blog detail</a></li>
+							  			</ul>
+							  		</div>
+							  	</li>
+							  	<li id="parent_page_list">
+							  		<a class="page"><span tooltip="NEW">Page<i class="fas down fa-caret-down"></i></span></a>
+							  		<div class="list_page list">
+							  			<ul>
+							  				<li><a href="checkout.html">Checkout</a></li>
+							  				<li><a href="q&a.html">q&a</a></li>
+							  			</ul>
+							  		</div>
+							  	</li>
+							  	<li>
+							  		<a class="about" href="about.html">About</a>
+							  	</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-2 col-md-6 col-sm-6 col-6">
+						<div class="interact">
+							<div class="interact_icon friends">
+								<i class="fas  fa-user-friends"></i>
+							</div>
+							<div class="interact_icon heart">
+								<i class="far  fa-heart">
+									<div>3</div>
+								</i>
+							</div>
+							<div class="interact_icon cart">
+								<a href="cart.html">
+									<i class="fas fa-shopping-cart">
+										<div>3</div>
+									</i>
+								</a>
+							</div>
+							<div class="interact_icon bars">
+								<i class="fas  fa-bars"></i>
+							</div>
+							<div class="interact_icon time_icon">
+								<i class="far fa-times-circle"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="show_later">
+			<div class="interact_show_later">
+				<div class="interact_icon_show_later">
+					<i class="fas  fa-user-friends"></i>
+				</div>
+				<div class="interact_icon_show_later">
+					<i class="far  fa-heart">
+						<div>3</div>
+					</i>
+				</div>
+				<div class="interact_icon_show_later">
+					<a href="cart.html"><i class="fas fa-shopping-cart">
+						<div>3</div>
+					</i></a>
+				</div>
+			</div>
+			<div class="show_later_search_input">
+				<input type="text" class="form-control" id="extampleField" placeholder="Search our store"><i style="color: #817e7e  !important;" class="fas searchs fa-search"></i>
+			</div>
+			<div class="list_menu">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+				  	<li id="parent_list_shop">
+				    	<a class="Shop"><span tooltip="NEW">Shop<i class="fas down fa-caret-down"></i></span></a>
+					    <div class="list_shop list">
+					      	<ul>
+					      		<li><a href="shop.html">Shop Main</a></li>
+					      		<li><a href="cart.html">Cart</a></li>
+					      		<li><a href="shop-detail.html">Shop detail</a></li>
+					      	</ul>
+					    </div>
+				  	</li>
+				  	<li id="parent_blog_list">
+				  		<a class="blog">Blog<i class="down fas fa-caret-down"></i></a>
+				  		<div class="blog_list list">
+				  			<ul>
+				  				<li><a href="blog.html">Main blog</a></li>
+				  				<li><a href="blog-detail.html">Blog detail</a></li>
+				  			</ul>
+				  		</div>
+				  	</li>
+				  	<li id="parent_page_list">
+				  		<a class="page"><span tooltip="NEW">Page<i class="fas down fa-caret-down"></i></span></a>
+				  		<div class="list_page list">
+				  			<ul>
+				  				<li><a href="checkout.html">Checkout</a></li>
+				  				<li><a href="q&a.html">q&a</a></li>
+				  			</ul>
+				  		</div>
+				  	</li>
+				  	<li>
+				  		<a class="about" href="about.html">About</a>
+				  	</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="categories">
+		<div class="p-0">
+			<div  data-aos="flip-up" class="search" >
+				<div class="row m-0">
+					<div class="p-0 col-xl-3 col-lg-3">
+						<div class="category">
+							<div class="category_title">
+								<i class="fas fa-align-left"></i>
+								<h5>Danh Mục Sản Phẩm</h5>
+							</div>
+							<div class="category_list list">
+								<ul>
+									<li><a href="">Sữa rửa mặt</a></li>
+									<li><a href="">Nước tẩy trang</a></li>
+									<li><a href="">Toner</a></li>
+									<li><a href="">Kem dưỡng ẩm</a></li>
+									<li><a href="">Kem chống nắng</a></li>
+									<li><a href="">Son</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class=" search_input_hide col-xl-6 col-lg-6">
+						<div class="search_input">
+							<input type="text" class="form-control" id="extampleField" placeholder="Search our store"><i class="fas searchs fa-search"></i>
+						</div>
+					</div>
+					<div class=" contact_hide col-xl-3 col-lg-3">
+						<div class="contact">
+							<p>Call Us: 123 456 789</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="breadcrumb">
+		<p><a href="../index.html">Home</a> <i class="fas fa-chevron-right"></i> <a href="shop.html">Shop</a> <i class="fas fa-chevron-right"></i> Shop detail</p>
+	</div>
+	<div class="detail_content">
+		<div class="product row">
+			<div data-aos="fade-up" class="left col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+				<div class="left_img">
+					<img data-aos="" class="w-100 splide__slide_show" src="../assets/images/ntt6.png" alt="">
+				</div>
+				<div class="slide_img">
+					<div class="splide" id="spide">
+					   <div class="splide__track">
+					     	<ul class="splide__list">
+					       		<li class="splide__slide"><img class="splide_img" src="../assets/images/ntt4.png" alt=""></li>
+					       		<li class="splide__slide"><img class="splide_img" src="../assets/images/ntt7.png" alt=""></li>
+					       		<li class="splide__slide"><img class="splide_img" src="../assets/images/ntt5.png" alt=""></li>
+					       		<li class="splide__slide"><img class="splide_img" src="../assets/images/ntt8.png" alt=""></li>
+					       		<li class="splide__slide"><img class="splide_img" src="../assets/images/ntt9.png" alt=""></li>
+					       		<li class="splide__slide"><img class="splide_img" src="../assets/images/ntt10.png" alt=""></li>
+					     	</ul>
+					   	</div>
+					</div>
+				</div>
+			</div>
+			<div data-aos="fade-up" class="right col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+				<div class="product_title">
+					<h4>Nước tẩy trang</h4>
+					<div class="evaluate">
+						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+					</div>
+					<h5 class="price">$<pre id="price">119</pre>.00<p id="rootPrice">$225.00</p><span>-30%</span></h5>
+					<p>[NOVO] Nước tẩy trang Novo Plant Milk (N5392)
+					❤ Nước tẩy trang Hojo Plant Milk được chiết xuất từ sữa và trái cây ❤ Nước tẩy trang Hojo với các thành phần tự nhiên nên khá lành tính và phù hợp với mọi loại da.</p>
+				</div>
+				<hr>
+				<i class="fas stock fa-chevron-down"></i><span class="in_stock">199 IN STOCK</span>
+				<div class="row mt-2">
+					<div class="product_icon"><i class="fas fa-book-reader"></i><span>Kích Thước</span>
+					</div>
+					<div class="product_icon"><i class="fas fa-shipping-fast"></i><span>Đang chuyển hàng</span>
+					</div>
+					<div class="product_icon"><i class="fas fa-envelope"></i><span>Hỏi về sản phẩm</span>
+					</div>
+				</div>
+				
+				<div class="">
+					<div class="quantity-block">
+						<h6>Số lượng:</h6>
+						<button class="quantity-arrow-minus"> - </button>
+						<input class="quantity-num" type="number" value="1" />
+						<button class="quantity-arrow-plus"> + </button>
+					</div>
+					<div class="add">
+						<a class="product_btn">Thêm vào giỏ hàng</a><span class="product_btn_span"><i class="fas fa-heart"></i></span>
+					</div>
+					<input class="product_input" type="checkbox"><span>Tôi đồng ý với các điều khoản và điều kiện</span>
+					<div class="add">
+						<a class="product_btn">MUA NGAY</a>
+					</div>
+					<div class="share">
+						<h6>Chia sẻ</h6>
+						<div class="share_icon">
+							<i class="fab fa-facebook-f"></i>
+							<i class="fab fa-twitter"></i>
+							<i class="fab fa-instagram-square"></i>
+						</div>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div>
+		<div class="detail_tab">
+			<div data-aos="fade-up" class="d-flex">
+				<div class="detail_tab_title1 detail_tab_title" style="border: 1px solid #878787">
+					<h5>Mô tả sản phẩm</h5>
+				</div>
+				<div class="detail_tab_title2 detail_tab_title">
+					<h5>Thông tin chi tiết</h5>
+				</div>
+				<div class="detail_tab_title3 detail_tab_title">
+					<h5>Nhận xét</h5>
+				</div>
+			</div>
+			<div data-aos="fade-up" class="detail_tab_content detail_tab_content_ative">
+				<p>Nước tẩy trang Novo Plant Milk được thiết kế dành riêng cho làn da dầu mụn và nhạy cảm. Với hợp chất làm sạch đặc biệt NatraGem™ S150, sản phẩm có khả năng tẩy sạch hoàn hảo mọi lớp trang điểm cứng đầu như: kem nền, phấn phủ, mascara, eyeliner,... cùng dầu thừa, bụi bẩn trên da.
+				</p>
+				<ul>
+					<h6>Nổi bật:</h6>
+					<li>Thành phần PEG-6 CAPRYLIC/CAPRIC GLYCERIDES</li>
+					<li>Sản phẩm không có mùi hương gây dị ứng</li>
+					<li>Khả năng tẩy trang son lì và mascara</li>
+					<li>Tẩy trang hiệu quả</li>
+					<li>Hương thơm: không có mùi hương gì đặc biệt</li>
+				</ul>
+			</div>
+			<div class="detail_tab_content">
+				<p>Nước tẩy trang Novo Plant Milk có công thức dịu nhẹ và lành tính. Thành phần chính gồm có chiết xuất từ bí đao, rau má, tràm trà, hoạt chất dưỡng ẩm betaine giúp kiểm soát dầu thừa, hỗ trợ trong việc chăm sóc da mụn. Đặc biệt, hợp chất NatraGem™ S150 mang đến hiệu quả làm sạch vượt trội đã được thông qua các bài kiểm tra trên các tình nguyện viên trong phòng thí nghiệm (In vivo test), được kiểm chứng phù hợp và không gây kích ứng cho da mụn.
+				</p>
+				<ul>
+					<h6>Nổi bật:</h6>
+					<li>Thành phần PEG-6 CAPRYLIC/CAPRIC GLYCERIDES</li>
+					<li>Sản phẩm không có mùi hương gây dị ứng</li>
+					<li>Khả năng tẩy trang son lì và mascara</li>
+					<li>Tẩy trang hiệu quả</li>
+					<li>Hương thơm: không có mùi hương gì đặc biệt</li>
+				</ul>
+			</div>
+			<div class="detail_tab_content">
+				<p>Sản phẩm sẽ đảm bảo cho làn da được sạch thoáng mà vẫn dịu nhẹ cho làn da nhạy cảm, an toàn cho vùng mắt và không chứa cồn, paraben, dầu khoáng và các chất gây hại cho da. Đây là nước tẩy trang ưu việt cho da dầu mụn và nhạy cảm mà bạn không thể bỏ qua.</p>
+				<ul>
+					<h6>Nổi bật:</h6>
+					<li>Thành phần PEG-6 CAPRYLIC/CAPRIC GLYCERIDES</li>
+					<li>Sản phẩm không có mùi hương gây dị ứng</li>
+					<li>Khả năng tẩy trang son lì và mascara</li>
+					<li>Tẩy trang hiệu quả</li>
+					<li>Hương thơm: không có mùi hương gì đặc biệt</li>
+				</ul>
+			</div>
+		</div>
+		<div class="new_product">
+			<div class="new_product_title">
+				<h2>Sản phẩm liên quan</h2>
+			</div>
+			<div class="new_product_content row owl-carousel owl-theme">
+				<div class=" item">
+					<div data-aos="fade-up" class=" two_content text-center">
+						<a href="shop-detail.html"><img class="w-100" src="../assets/images/son1.png" alt=""></a>
+						<div class="evaluate">
+							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+						</div>
+						<div class="two_content_title">
+							<div class="name_two_content">
+								<a href="shop-detail.html"><h6>Son</h6></a>
+								<p>110.00$<i class="fas fa-arrow-right"></i><span>150.00$</span></p>
+							</div>
+						</div>
+						<div class="discount">
+							<svg height="40" width="40">
+        						<polygon points="30,0 0,0 0,40 15,32 30,40 30,3 33,3" style="fill:red;stroke:red;stroke-width:1"/><span>-30%</span>
+      						</svg>
+						</div>
+						<div class="time_discount">
+							<div data-aos="fade-left" class="time_discount_content">
+								<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item ">
+					<div data-aos="fade-up" class="two_content text-center">
+						<a href="shop-detail.html"><img class="w-100" src="../assets/images/ntt1.png" alt=""></a>
+						<div class="evaluate">
+							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+						</div>
+						<div class="two_content_title">
+							<div class="name_two_content">
+								<a href="shop-detail.html"><h6>Nước tẩy trang</h6></a>
+								<p>210.00$<i class="fas fa-arrow-right"></i><span>315.00$</span></p>
+							</div>
+						</div>
+						<div class="discount">
+							<svg height="40" width="40">
+        						<polygon points="30,0 0,0 0,40 15,32 30,40 30,3 33,3" style="fill:red;stroke:red;stroke-width:1"/><span>-30%</span>
+      						</svg>
+						</div>
+						<div class="time_discount">
+							<div data-aos="fade-left" class="time_discount_content">
+								<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item ">
+					<div data-aos="fade-up" class="two_content text-center">
+						<a href="shop-detail.html"><img class="w-100" src="../assets/images/KDA1.jpg" alt=""></a>
+						<div class="evaluate">
+							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+						</div>
+						<div class="two_content_title">
+							<div class="name_two_content">
+								<a href="shop-detail.html"><h6>Kem dưỡng ẩm</h6></a>
+								<p>321.00$<i class="fas fa-arrow-right"></i><span>431.00$</span></p>
+							</div>
+						</div>
+						<div class="discount">
+							<svg height="40" width="40">
+        						<polygon points="30,0 0,0 0,40 15,32 30,40 30,3 33,3" style="fill:red;stroke:red;stroke-width:1"/><span>-30%</span>
+      						</svg>
+						</div>
+						<div class="time_discount">
+							<div data-aos="fade-left" class="time_discount_content">
+								<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item ">
+					<div data-aos="fade-up" class="two_content text-center">
+						<a href="shop-detail.html"><img class="w-100" src="../assets/images/kcn1.png" alt=""></a>
+						<div class="evaluate">
+							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+						</div>
+						<div class="two_content_title">
+							<div class="name_two_content">
+								<a href="shop-detail.html"><h6>Kme chống nắng</h6></a>
+								<p>310.00$<i class="fas fa-arrow-right"></i><span>415.00$</span></p>
+							</div>
+						</div>
+						<div class="discount">
+							<svg height="40" width="40">
+        						<polygon points="30,0 0,0 0,40 15,32 30,40 30,3 33,3" style="fill:red;stroke:red;stroke-width:1"/><span>-30%</span>
+      						</svg>
+						</div>
+						<div class="time_discount">
+							<div data-aos="fade-left" class="time_discount_content">
+								<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item ">
+					<div data-aos="fade-up" class="two_content text-center">
+						<a href="shop-detail.html"><img class="w-100" src="../assets/images/toner1.png" alt=""></a>
+						<div class="evaluate">
+							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+						</div>
+						<div class="two_content_title">
+							<div class="name_two_content">
+								<a href="shop-detail.html"><h6>Toner</h6></a>
+								<p>310.00$<i class="fas fa-arrow-right"></i><span>455.00$</span></p>
+							</div>
+						</div>
+						<div class="discount">
+							<svg height="40" width="40">
+        						<polygon points="30,0 0,0 0,40 15,32 30,40 30,3 33,3" style="fill:red;stroke:red;stroke-width:1"/><span>-30%</span>
+      						</svg>
+						</div>
+						<div class="time_discount">
+							<div data-aos="fade-left" class="time_discount_content">
+								<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item ">
+					<div data-aos="fade-up" class="two_content text-center">
+						<a href="shop-detail.html"><img class="w-100" src="../assets/images/son2.png" alt=""></a>
+						<div class="evaluate">
+							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+						</div>
+						<div class="two_content_title">
+							<div class="name_two_content">
+								<a href="shop-detail.html"><h6>Son</h6></a>
+								<p>310.00$<i class="fas fa-arrow-right"></i><span>515.00$</span></p>
+							</div>
+						</div>
+						<div class="discount">
+							<svg height="40" width="40">
+        						<polygon points="30,0 0,0 0,40 15,32 30,40 30,3 33,3" style="fill:red;stroke:red;stroke-width:1"/><span>-30%</span>
+      						</svg>
+						</div>
+						<div class="time_discount">
+							<div data-aos="fade-left" class="time_discount_content">
+								<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item ">
+					<div data-aos="fade-up" class="two_content text-center">
+						<a href="shop-detail.html"><img class="w-100" src="../assets/images/kcn2.png" alt=""></a>
+						<div class="evaluate">
+							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+						</div>
+						<div class="two_content_title">
+							<div class="name_two_content">
+								<a href="shop-detail.html"><h6>Kem chống nắng</h6></a>
+								<p>310.00$<i class="fas fa-arrow-right"></i><span>555.00$</span></p>
+							</div>
+						</div>
+						<div class="discount">
+							<svg height="40" width="40">
+        						<polygon points="30,0 0,0 0,40 15,32 30,40 30,3 33,3" style="fill:red;stroke:red;stroke-width:1"/><span>-30%</span>
+      						</svg>
+						</div>
+						<div class="time_discount">
+							<div data-aos="fade-left" class="time_discount_content">
+								<a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item ">
+					<div data-aos="fade-up" class="two_content text-center">
+						<a href=""><img class="w-100" src="../assets/images/KDA3.png" alt=""></a>
+						<div class="evaluate">
+							<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+						</div>
+						<div class="two_content_title">
+							<div class="name_two_content">
+								<a href=""><h6>Kem dưỡng ẩm</h6></a>
+								<p>310.00$<i class="fas fa-arrow-right"></i><span>515.00$</span></p>
+							</div>
+						</div>
+						<div class="discount">
+							<svg height="40" width="40">
+        						<polygon points="30,0 0,0 0,40 15,32 30,40 30,3 33,3" style="fill:red;stroke:red;stroke-width:1"/><span>-30%</span>
+      						</svg>
+						</div>
+						<div class="time_discount">
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-shopping-cart"></i>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-heart"></i>
+							</div>
+							<div data-aos="fade-left" class="time_discount_content">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="top_categories_one_btn">
+				<button type="button" class="btn btn-outline-danger">Sản phẩm khác <i class="fas fa-arrow-right"></i></button>
+			</div>
+		</div>
+	</div>
+	<div class="footer container-fluid">
+		<div class="cooperate">
+			<div class="row slide_footer owl-carousel owl-theme">
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—cosmetic cartoon png material_4559519.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—lady beauty supplies illustration cartoon_3829359.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—red feminine cosmetics lipstick_4939918.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/logo_phu.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—cartoon female cosmetic bag illustration_4531712.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—sun decoration sunscreen illustration_4639135.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/logo_moi.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—red feminine cosmetics lipstick_4939918.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="thanks_recommend">
+			<div class="recommend">
+				<div class="row">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="logo_end text-center">
+							<a href="../index.html"><img class="w-75" src="../assets/images/logo_chinh.png" alt=""></a>
+						</div>
+						<div class="address_end">
+							<p><i class="fas fa-home"></i>  Khanh Hai, Van Hai, Kim Son, Ninh Bình, Viet Nam.</p>
+							<p><i class="fas fa-phone-alt"></i> +01 23456789 </p>
+							<p><i class="fas fa-envelope"></i> vudungnb25@gmail.com</p>
+							<div class="icon">
+								<i class="fab fa-facebook-f"></i>
+								<i class="fab fa-twitter"></i>
+								<i class="fab fa-youtube"></i>
+								<i class="fab fa-google-plus-g"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+						<div class="infomation">
+							<h5>KHÁCH HÀNG</h5>
+							<ul>
+								<li><a href="">Trung Tâm Trợ Giúp</a></li>
+								<li><a href="">Hướng Dẫn Mua Hàng</a></li>
+								<li><a href="">Hướng Dẫn Bán Hàng</a></li>
+								<li><a href="">Vận Chuyển</a></li>
+								<li><a href="">Thanh Toán</a></li>
+								<li><a href="">Trả Hàng & Hoàn Tiền</a></li>
+								<li><a href="">Chăm Sóc Khách Hàng</a></li>
+								<li><a href="">Chính Sách Bảo Hành</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+						<div class="our_company">
+							<h5>CÔNG TY</h5>
+							<ul>
+								<li><a href="">Chuyển</a></li>
+								<li><a href="">Thông báo pháp lý</a></li>
+								<li><a href="">Sơ đồ trang web</a></li>
+								<li><a href="">Thanh toán an toàn</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a href="">Về chúng tôi</a></li>
+								<li><a href="">Nghề nghiệp</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+						<div class="my_accout">
+							<h5>TÀI KHOẢN</h5>
+							<ul>
+								<li><a href="">Thông tin giao hàng</a></li>
+								<li><a href="">tìm kiếm nâng cao</a></li>
+								<li><a href="">Trợ giúp & Câu hỏi thường gặp</a></li>
+								<li><a href="">Vị Trí</a></li>
+								<li><a href="">Đơn hàng & Trả hàng</a></li>
+								<li><a href="">Giao hàng tận nơi</a></li>
+								<li><a href="">Hoàn tiền & trả hàng</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+						<div class="opening_time">
+							<h5>Thời gian mở cửa</h5>
+							<ul>
+								<li><a href="">Hai-Sáu: 8AM - 10PM</a></li>
+								<li><a href="">Bảy: 9AM - 8PM</a></li>
+								<li><a href="">CN: 14hPM - 18hPM</a></li>
+								<li><a href="">Làm việc tất cả các ngày lễ</a></li>
+								<li><a href=""><h6>Tải  ứng dụng của chúng tôi</h6></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="the_end text-center">
+			<div class="row">
+				<div class="the_end_left col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+					<p>Copyright <i class="far fa-copyright"></i> <a href="">DungThiVu.</a>All Rights Reserved</p>
+				</div>
+				<div class="the_end_right text-right col-md-6 col-xl-6 col-lg-6 col-sm-12 col-12">
+					<img src="../assets/images/payment.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/library/aos/aos.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.14/dist/js/splide.min.js"></script>
+	<script type="text/javascript" src="../assets/library/owl_carowsel/assets/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="../assets/js/shop-detail.js"></script>
+	<script type="text/javascript" src="../assets/js/header.js"></script>
+</body>
+</html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cart</title>
+	<link rel="stylesheet" href="../assets/library/cssfont/all.min.css">
+	<link rel="stylesheet" href="../assets/library/aos/aos.css">
+	<link rel="stylesheet" href="../assets/css/header_footer.css">
+	<link rel="stylesheet" href="../assets/css/cart.css">
+	<link rel="stylesheet" href="../assets/library/owl_carowsel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="../assets/library/owl_carowsel/assets/owl.theme.default.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  	/>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script type="text/javascript" src="../assets/js/jquery-3.6.0.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+</head>
+<body>
+	<div class="back_to_top">
+		<img src="../assets/images/up-chevron.png" alt="">
+	</div>
+	<div class="header">
+		<div class="container-fluid p-0">
+			<div  data-aos="flip-up" class="Selection">
+				<div class="row">
+					<div class="free_delivery col-xl-8 col-lg-7 ">
+						<p>Thiên đường của vẻ đẹp tự nhiên</p>
+					</div>
+					<div class="language_currency col-xl-4 col-lg-5">
+						<ul>
+						  	<li>
+						    	<a class="language">Ngôn Ngữ<i class="down fas fa-caret-down"></i></a>
+							    <div class="language_content list">
+							      	<div class="a_item">
+							      		<a href="">Tiếng Anh</a>
+							      	</div>
+							      	<div class="a_item" class="a_item">
+							      		<a href="">Tiếng Việt</a>
+							      	</div>
+							    </div>
+						  	</li>
+						  	<li>
+						    	<a class="currency">Tiền Tệ<i class="down fas fa-caret-down"></i></a>
+							    <div class="currency_content list">
+							    	<div class="a_item" class="a_item">
+							      		<a href="">$ Dolar</a>
+							      	</div>
+							      	<div class="a_item">
+							      		<a href="">VN đồng</a>
+							      	</div>
+							    </div>
+						  	</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="headerFix" class="">
+		<div>
+			<div  data-aos="flip-up" class="menu" id="flip_up_menu">
+				<div class="row m-0">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+						<div class="logo">
+							<a href="../index.html"><img class="logo_black" src="../assets/images/logo_chinh.png" alt=""></a>
+							<a href="../index.html"><img class="logo_white" src="../assets/images/logo_phu.png" alt=""></a>
+						</div>
+					</div>
+					<div class="menu_hide col-xl-6 col-lg-7 text-center">
+						<div class="list_menu">
+							<ul>
+								<li><a href="../index.html">Home</a></li>
+							  	<li id="parent_list_shop">
+							    	<a class="Shop"><span tooltip="NEW">Shop<i class="fas down fa-caret-down"></i></span></a>
+								    <div class="list_shop list">
+								      	<ul>
+								      		<li><a href="shop.html">Shop Main</a></li>
+								      		<li><a href="cart.html">Cart</a></li>
+								      		<li><a href="shop-detail.html">Shop detail</a></li>
+								      	</ul>
+								    </div>
+							  	</li>
+							  	<li id="parent_blog_list">
+							  		<a class="blog">Blog<i class="down fas fa-caret-down"></i></a>
+							  		<div class="blog_list list">
+							  			<ul>
+							  				<li><a href="log.html">Main blog</a></li>
+							  				<li><a href="blog-detail.html">Blog detail</a></li>
+							  			</ul>
+							  		</div>
+							  	</li>
+							  	<li id="parent_page_list">
+							  		<a class="page"><span tooltip="NEW">Page<i class="fas down fa-caret-down"></i></span></a>
+							  		<div class="list_page list">
+							  			<ul>
+							  				<li><a href="checkout.html">Checkout</a></li>
+							  				<li><a href="q&a.html">q&a</a></li>
+							  			</ul>
+							  		</div>
+							  	</li>
+							  	<li>
+							  		<a class="about" href="about.html">About</a>
+							  	</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+						<div class="interact">
+							<div class="interact_icon friends">
+								<i class="fas  fa-user-friends"></i>
+							</div>
+							<div class="interact_icon heart">
+								<i class="far  fa-heart">
+									<div>3</div>
+								</i>
+							</div>
+							<div class="interact_icon cart">
+								<a href="cart.html">
+									<i class="fas fa-shopping-cart">
+										<div>3</div>
+									</i>
+								</a>
+							</div>
+							<div class="interact_icon bars">
+								<i class="fas  fa-bars"></i>
+							</div>
+							<div class="interact_icon time_icon">
+								<i class="far fa-times-circle"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="show_later">
+			<div class="interact_show_later">
+				<div class="interact_icon_show_later">
+					<i class="fas  fa-user-friends"></i>
+				</div>
+				<div class="interact_icon_show_later">
+					<i class="far  fa-heart">
+						<div>3</div>
+					</i>
+				</div>
+				<div class="interact_icon_show_later">
+					<a href=""><i class="fas fa-shopping-cart">
+						<div>3</div>
+					</i></a>
+				</div>
+			</div>
+			<div class="show_later_search_input">
+				<input type="text" class="form-control" id="extampleField" placeholder="Search our store"><i style="color: #817e7e  !important;" class="fas searchs fa-search"></i>
+			</div>
+			<div class="list_menu">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+				  	<li id="parent_list_shop">
+				    	<a class="Shop"><span tooltip="NEW">Shop<i class="fas down fa-caret-down"></i></span></a>
+					    <div class="list_shop list">
+					      	<ul>
+					      		<li><a href="shop.html">Shop Main</a></li>
+					      		<li><a href="cart.html">Cart</a></li>
+					      		<li><a href="shop-detail.html">Shop detail</a></li>
+					      	</ul>
+					    </div>
+				  	</li>
+				  	<li id="parent_blog_list">
+				  		<a class="blog">Blog<i class="down fas fa-caret-down"></i></a>
+				  		<div class="blog_list list">
+				  			<ul>
+				  				<li><a href="Blog.html">Main blog</a></li>
+				  				<li><a href="Blog-detail.html">Blog detail</a></li>
+				  			</ul>
+				  		</div>
+				  	</li>
+				  	<li id="parent_page_list">
+				  		<a class="page"><span tooltip="NEW">Page<i class="fas down fa-caret-down"></i></span></a>
+				  		<div class="list_page list">
+				  			<ul>
+				  				<li><a href="checkout.html">Checkout</a></li>
+				  				<li><a href="q&a.html">q&a</a></li>
+				  			</ul>
+				  		</div>
+				  	</li>
+				  	<li>
+				  		<a class="about" href="about.html">About</a>
+				  	</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="categories">
+		<div class="p-0">
+			<div  data-aos="flip-up" class="search" >
+				<div class="row m-0">
+					<div class="p-0 col-xl-3 col-lg-3">
+						<div class="category">
+							<div class="category_title">
+								<i class="fas fa-align-left"></i>
+								<h5>Danh Mục Sản Phẩm</h5>
+							</div>
+							<div class="category_list list">
+								<ul>
+									<li><a href="">Sữa rửa mặt</a></li>
+									<li><a href="">Nước tẩy trang</a></li>
+									<li><a href="">Toner</a></li>
+									<li><a href="">Kem dưỡng ẩm</a></li>
+									<li><a href="">Kem chống nắng</a></li>
+									<li><a href="">Son</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class=" search_input_hide col-xl-6 col-lg-6">
+						<div class="search_input">
+							<input type="text" class="form-control" id="extampleField" placeholder="Search our store"><i class="fas searchs fa-search"></i>
+						</div>
+					</div>
+					<div class=" contact_hide col-xl-3 col-lg-3">
+						<div class="contact">
+							<p>Call Us: 123 456 789</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="breadcrumb">
+		<p><a href="../index.html">Home</a> <i class="fas fa-chevron-right"></i>Shop<i class="fas fa-chevron-right"></i> Cart</p>
+	</div>
+	<div class="cart_content">	
+		<div class="cart_content_title">
+			<h2>Các Mặt Hàng Trong Giỏ</h2>
+		</div>
+		<div class="your_cart">
+			<div data-aos="fade-left" class="table_title row">
+				<h6 class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Ảnh</h6>
+				<h6 class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Tên sản phẩm</h6>
+				<h6 class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Giá khuyến mại</h6>
+				<h6 class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Số lượng</h6>
+				<h6 class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Giá gốc</h6>
+				<h6 class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Hoạt động</h6>
+			</div>
+			<div data-aos="fade-left" class="your_cart_content row">
+				<img class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2" src="../assets/images/kcn1.png" alt="">
+				<p class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Kem chống nắng</p>
+				<p class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">$210.00</p>
+				<div class="quantity col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+					<input type="number" min="1" max="9" step="1" value="1">
+				</div>
+				<p class="quantity col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">$312.00</p>
+				<div class="buying">
+					<i class="fas fa-pencil-alt"></i><i class="fas delete fa-times"></i>
+				</div>
+			</div>
+			<div data-aos="fade-left" class="your_cart_content row">
+				<img class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2" src="../assets/images/KDA1.jpg" alt="">
+				<p class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Kem dưỡng ẩm</p>
+				<p class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">$210.00</p>
+				<div class="quantity col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+					<input type="number" min="1" max="9" step="1" value="1">
+				</div>
+				<p class="quantity col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">$251.00</p>
+				<div class="buying">
+					<i class="fas fa-pencil-alt"></i><i class="fas delete1 fa-times"></i>
+				</div>
+			</div>
+			<div data-aos="fade-left" class="your_cart_content end row">
+				<img class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2" src="../assets/images/ntt1.png" alt="">
+				<p class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">Nước tẩy trang</p>
+				<p class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">$210.00</p>
+				<div class="quantity col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+					<input type="number" min="1" max="9" step="1" value="1">
+				</div>
+				<p class="quantity col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">$312.00</p>
+				<div class="buying">
+					<i class="fas fa-pencil-alt"></i><i class="fas delete2 fa-times"></i>
+				</div>
+			</div>
+		</div>
+		<div class="your_cart_btn row">
+			<div data-aos="fade-up" class="prev_shop col-12 col-sm-12 col-md-12 col-lg-4 col-xl-6">
+				<a href="shop.html">TIẾP TỤC MUA SẮM</a>
+			</div>
+			<div data-aos="fade-up" class="update col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="shop-detail.html">CẬP NHẬT GIỎ HÀNG MUA SẮM</a>
+			</div>
+			<div data-aos="fade-up" class="clear col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+				<a href="">Xóa Giỏ Hàng</a>
+			</div>
+		</div>
+		<div class="information row">
+			<div data-aos="fade-up" class="ReceivingAddress col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+				<div class="ReceivingAddress_title">
+					<h5>DỰ TOÁN VẬN CHUYỂN VÀ THUẾ</h5>
+				</div>
+				<div class="ReceivingAddress_content">
+					<p>Nhập điểm đến của bạn để nhận ước tính vận chuyển.</p>
+					<div class="country">
+						<label for="">Quốc gia <span>*</span></label><br>
+						<select name="" id="sel1">
+							<option value="0">--Chọn quốc gia--</option>
+							<option value="">Vietnam</option>
+							<option value="">Anh</option>
+							<option value="">Pháp</option>
+							<option value="">Mỹ</option>
+							<option value="">Nhật Bản</option>
+						</select><br>
+						<p id="country_error" class="error">
+						</p>
+					</div>
+					<div class="region">
+						<label for="">Thành Phố<span>*</span></label><br>
+						<select name="" id="sel2">
+							<option value="0">--Chọn thành phố--</option>
+							<option value="">Hà Nội</option>
+							<option value="">Ninh Bình</option>
+							<option value="">Quảng Ninh</option>
+						</select><br>
+						</select><br>
+						<p id="region_error" class="error">
+						</p>
+					</div>
+					<div class="zip">
+						<label for="">Mã <span>*</span></label><br>
+						<input class="code2" type="Number"><br>
+						<p id="zip_error" class="error">
+						</p>
+					</div>
+				</div>
+				<div class="information_btn ReceivingAddress_btn">
+					<a>NHẬN BÁO GIÁ</a>
+				</div>
+			</div>
+			<div data-aos="fade-up" class="coupon col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+				<div class="coupon_title">
+					<h5>SỬ DỤNG MÃ</h5>
+				</div>
+				<div class="coupon_content">
+					<p>Nhập mã phiếu giảm giá của bạn nếu bạn có.</p>
+					<div class="coupon_code">
+						<label for="">Nhập mã phiếu giảm giá <span>*</span></label><br>
+						<input class="code1" type="Number">
+					</div><br>
+					<p id="coupon_content_error" class="error">
+					</p>
+				</div>
+				<div class="information_btn coupon_btn">
+					<a>Áp dụng mã phiếu giảm giá</a>
+				</div>
+			</div> 
+			<div data-aos="fade-up" class="cart_total col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+				<div class="cart_title">
+					<h5>Giỏ hàng</h5>
+				</div>
+				<div class="cart_title_content">
+					<p>Tổng sản phẩm Giá<span>$260.00</span></p>
+					<div class="shipping">
+						<input type="radio" name="many" checked>Tiêu chuẩn<span>$20.00</span><br>
+						<input type="radio" name="many">Nhanh <span>$25.00</span>
+					</div>
+				</div>
+				<div class="grand">
+					<h4>Tổng cộng<span>$260.00</span></h4>
+				</div>
+				<div class="information_btn">
+					<a href="checkout.html">TIẾN HÀNH KIỂM TRA</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="footer container-fluid">
+		<div class="cooperate">
+			<div class="row slide_footer owl-carousel owl-theme">
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—cosmetic cartoon png material_4559519.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—lady beauty supplies illustration cartoon_3829359.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—red feminine cosmetics lipstick_4939918.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/logo_phu.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—cartoon female cosmetic bag illustration_4531712.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—sun decoration sunscreen illustration_4639135.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/logo_moi.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—red feminine cosmetics lipstick_4939918.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="thanks_recommend">
+			<div class="recommend">
+				<div class="row">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="logo_end text-center">
+							<a href=""><img class="w-75" src="../assets/images/logo_chinh.png" alt=""></a>
+						</div>
+						<div class="address_end">
+							<p><i class="fas fa-home"></i> Khanh Hai, Van Hai, Kim Son, Ninh Bình, Viet Nam.</p>
+							<p><i class="fas fa-phone-alt"></i> +01 23456789 </p>
+							<p><i class="fas fa-envelope"></i> vudungnb25@gmail.com</p>
+							<div class="icon">
+								<i class="fab fa-facebook-f"></i>
+								<i class="fab fa-twitter"></i>
+								<i class="fab fa-youtube"></i>
+								<i class="fab fa-google-plus-g"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+						<div class="infomation">
+							<h5>CHĂM SÓC</h5>
+							<ul>
+								<li><a href="">Trung Tâm Trợ Giúp</a></li>
+								<li><a href="">Hướng Dẫn Mua Hàng</a></li>
+								<li><a href="">Hướng Dẫn Bán Hàng</a></li>
+								<li><a href="">Vận Chuyển</a></li>
+								<li><a href="">Thanh Toán</a></li>
+								<li><a href="">Trả Hàng & Hoàn Tiền</a></li>
+								<li><a href="">Chăm Sóc Khách Hàng</a></li>
+								<li><a href="">Chính Sách Bảo Hành</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+						<div class="our_company">
+							<h5>CÔNG TY</h5>
+							<ul>
+								<li><a href="">Chuyển</a></li>
+								<li><a href="">Thông báo pháp lý</a></li>
+								<li><a href="">Sơ đồ trang web</a></li>
+								<li><a href="">Thanh toán an toàn</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a href="">Về chúng tôi</a></li>
+								<li><a href="">Nghề nghiệp</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+						<div class="my_accout">
+							<h5>TÀI KHOẢN</h5>
+							<ul>
+								<li><a href="">Thông tin giao hàng</a></li>
+								<li><a href="">tìm kiếm nâng cao</a></li>
+								<li><a href="">Trợ giúp & Câu hỏi thường gặp</a></li>
+								<li><a href="">Vị Trí</a></li>
+								<li><a href="">Đơn hàng & Trả hàng</a></li>
+								<li><a href="">Giao hàng tận nơi</a></li>
+								<li><a href="">Hoàn tiền & trả hàng</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+						<div class="opening_time">
+							<h5>Thời gian mở cửa</h5>
+							<ul>
+								<li><a href="">Hai-Sáu: 8AM - 10PM</a></li>
+								<li><a href="">Bảy: 9AM - 8PM</a></li>
+								<li><a href="">CN: 14hPM - 18hPM</a></li>
+								<li><a href="">Làm việc tất cả các ngày lễ</a></li>
+								<li><a href=""><h6>Tải  ứng dụng của chúng tôi</h6></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="the_end text-center">
+			<div class="row">
+				<div class="the_end_left col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+					<p>Copyright <i class="far fa-copyright"></i> <a href="">DungThiVu.</a>All Rights Reserved</p>
+				</div>
+				<div class="the_end_right text-right col-md-6 col-xl-6 col-lg-6 col-sm-12 col-12">
+					<img src="../assets/images/payment.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/library/aos/aos.js"></script>
+	<script type="text/javascript" src="../assets/library/owl_carowsel/assets/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="../assets/js/cart.js"></script>
+	<script type="text/javascript" src="../assets/js/header.js"></script>
+</body>
+</html>

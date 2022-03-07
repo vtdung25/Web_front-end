@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog detail</title>
+	<link rel="stylesheet" href="../assets/library/cssfont/all.min.css">
+	<link rel="stylesheet" href="../assets/library/aos/aos.css">
+	<link rel="stylesheet" href="../assets/css/header_footer.css">
+	<link rel="stylesheet" href="../assets/css/blog-detail.css">
+	<link rel="stylesheet" href="../assets/library/owl_carowsel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="../assets/library/owl_carowsel/assets/owl.theme.default.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  	/>
+	<script type="text/javascript" src="../assets/js/jquery-3.6.0.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	
+</head>
+<body>
+	<div class="back_to_top">
+		<img src="../assets/images/up-chevron.png" alt="">
+	</div>
+	<div class="header">
+		<div class="container-fluid p-0">
+			<div  data-aos="flip-up" class="Selection">
+				<div class="row">
+					<div class="free_delivery col-xl-8 col-lg-7 ">
+						<p>Thiên đường của vẻ đẹp tự nhiên</p>
+					</div>
+					<div class="language_currency col-xl-4 col-lg-5">
+						<ul>
+						  	<li>
+						    	<a class="language">Ngôn Ngữ<i class="down fas fa-caret-down"></i></a>
+							    <div class="language_content list">
+							      	<div class="a_item">
+							      		<a href="">Tiếng Anh</a>
+							      	</div>
+							      	<div class="a_item" class="a_item">
+							      		<a href="">Tiếng Việt</a>
+							      	</div>
+							    </div>
+						  	</li>
+						  	<li>
+						    	<a class="currency">Tiền tệ<i class="down fas fa-caret-down"></i></a>
+							    <div class="currency_content list">
+							    	<div class="a_item" class="a_item">
+							      		<a href="">$ Dolar</a>
+							      	</div>
+							      	<div class="a_item">
+							      		<a href="">VN đồng</a>
+							      	</div>
+							    </div>
+						  	</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="headerFix" class="">
+		<div>
+			<div  data-aos="flip-up" class="menu" id="flip_up_menu">
+				<div class="row m-0">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+						<div class="logo">
+							<a href="../index.html"><img class="logo_black" src="../assets/images/logo_chinh.png" alt=""></a>
+							<a href="../index.html"><img class="logo_white" src="../assets/images/logo_phu.png" alt=""></a>
+						</div>
+					</div>
+					<div class="menu_hide col-xl-6 col-lg-7 text-center">
+						<div class="list_menu">
+							<ul>
+								<li><a href="../index.html">Home</a></li>
+							  	<li id="parent_list_shop">
+							    	<a class="Shop"><span tooltip="NEW">Shop<i class="fas down fa-caret-down"></i></span></a>
+								    <div class="list_shop list">
+								      	<ul>
+								      		<li><a href="shop.html">Shop Main</a></li>
+								      		<li><a href="cart.html">Cart</a></li>
+								      		<li><a href="shop-detail.html">Shop detail</a></li>
+								      	</ul>
+								    </div>
+							  	</li>
+							  	<li id="parent_blog_list">
+							  		<a class="blog">Blog<i class="down fas fa-caret-down"></i></a>
+							  		<div class="blog_list list">
+							  			<ul>
+							  				<li><a href="blog.html">Main blog</a></li>
+							  				<li><a href="blog-detail.html">Blog detail</a></li>
+							  			</ul>
+							  		</div>
+							  	</li>
+							  	<li id="parent_page_list">
+							  		<a class="page"><span tooltip="NEW">Page<i class="fas down fa-caret-down"></i></span></a>
+							  		<div class="list_page list">
+							  			<ul>
+							  				<li><a href="checkout.html">Checkout</a></li>
+							  				<li><a href="q&a.html">q&a</a></li>
+							  			</ul>
+							  		</div>
+							  	</li>
+							  	<li>
+							  		<a class="about" href="about.html">About</a>
+							  	</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-2 col-md-6 col-sm-6 col-6">
+						<div class="interact">
+							<div class="interact_icon friends">
+								<i class="fas  fa-user-friends"></i>
+							</div>
+							<div class="interact_icon heart">
+								<i class="far  fa-heart">
+									<div>3</div>
+								</i>
+							</div>
+							<div class="interact_icon cart">
+								<a href="cart.html">
+									<i class="fas fa-shopping-cart">
+										<div>3</div>
+									</i>
+								</a>
+							</div>
+							<div class="interact_icon bars">
+								<i class="fas  fa-bars"></i>
+							</div>
+							<div class="interact_icon time_icon">
+								<i class="far fa-times-circle"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="show_later">
+			<div class="interact_show_later">
+				<div class="interact_icon_show_later">
+					<i class="fas  fa-user-friends"></i>
+				</div>
+				<div class="interact_icon_show_later">
+					<i class="far  fa-heart">
+						<div>3</div>
+					</i>
+				</div>
+				<div class="interact_icon_show_later">
+					<a href="cart.html"><i class="fas fa-shopping-cart">
+						<div>3</div>
+					</i></a>
+				</div>
+			</div>
+			<div class="show_later_search_input">
+				<input type="text" class="form-control" id="extampleField" placeholder="Search our store"><i style="color: #817e7e  !important;" class="fas searchs fa-search"></i>
+			</div>
+			<div class="list_menu">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+				  	<li id="parent_list_shop">
+				    	<a class="Shop"><span tooltip="NEW">Shop<i class="fas down fa-caret-down"></i></span></a>
+					    <div class="list_shop list">
+					      	<ul>
+					      		<li><a href="shop.html">Shop Main</a></li>
+					      		<li><a href="cart.html">Cart</a></li>
+					      		<li><a href="shop-detail.html">Shop detail</a></li>
+					      	</ul>
+					    </div>
+				  	</li>
+				  	<li id="parent_blog_list">
+				  		<a class="blog">Blog<i class="down fas fa-caret-down"></i></a>
+				  		<div class="blog_list list">
+				  			<ul>
+				  				<li><a href="blog.html">Main blog</a></li>
+				  				<li><a href="blog-detail.html">Blog detail</a></li>
+				  			</ul>
+				  		</div>
+				  	</li>
+				  	<li id="parent_page_list">
+				  		<a class="page"><span tooltip="NEW">Page<i class="fas down fa-caret-down"></i></span></a>
+				  		<div class="list_page list">
+				  			<ul>
+				  				<li><a href="checkout.html">Checkout</a></li>
+				  				<li><a href="q&a.html">q&a</a></li>
+				  			</ul>
+				  		</div>
+				  	</li>
+				  	<li>
+				  		<a class="about" href="about.html">About</a>
+				  	</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="categories">
+		<div class="p-0">
+			<div  data-aos="flip-up" class="search" >
+				<div class="row m-0">
+					<div class="p-0 col-xl-3 col-lg-3">
+						<div class="category">
+							<div class="category_title">
+								<i class="fas fa-align-left"></i>
+								<h5>Danh Mục Sản Phẩm</h5>
+							</div>
+							<div class="category_list list">
+								<ul>
+									<li><a href="">Sữa rửa mặt</a></li>
+									<li><a href="">Nước tẩy trang</a></li>
+									<li><a href="">Toner</a></li>
+									<li><a href="">Kem dưỡng ẩm</a></li>
+									<li><a href="">Kem chống nắng</a></li>
+									<li><a href="">Son</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class=" search_input_hide col-xl-6 col-lg-6">
+						<div class="search_input">
+							<input type="text" class="form-control" id="extampleField" placeholder="Search our store"><i class="fas searchs fa-search"></i>
+						</div>
+					</div>
+					<div class=" contact_hide col-xl-3 col-lg-3">
+						<div class="contact">
+							<p>Call Us: 123 456 789</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="breadcrumb">
+		<p><a href="../index.html">Home</a> <i class="fas fa-chevron-right"></i> <a href="Blog.html">Blog</a> <i class="fas fa-chevron-right"></i> Blog detail</p>
+	</div>
+	<div class="blog_content">
+		<div class="row">
+			<div class="blog_homepage col-xl-9 col-lg-9">
+				<div class="blog_homepage_img text-center">
+					<img src="../assets/images/anh-nen6.png" alt="">
+				</div>
+				<div class="blog_homepage_child">
+					<div class="blog_homepage_child_title">
+						<h2>Một số câu hỏi - trả lời</h2>
+						<p><i class="far fa-calendar-alt"></i> Oct 29, 2021<span>Ngọc Anh Trần</span></p>
+					</div>
+					<div class="document">
+						<p> Khi nào tôi nên bắt đầu dùng các sản phẩm ngăn ngừa lão hóa?</p>
+						<div class="note">
+							<i>Chia sẻ: “Ở khoảng độ tuổi 25 và dần có xu hướng sớm hơn là ở độ tuổi 20 là bắt đầu có những dấu hiệu lão hóa. Vì thế mà chúng ta có những chế độ ngăn ngừa lão hóa sớm sẽ giúp da khỏe mạnh và cải thiện da tốt hơn. Nhưng tùy thuộc mức độ lão hóa mà chọn sản phẩm phù hợp. Khi chúng ta còn nhỏ thì chúng ta chỉ cần 14 ngày để da được tái tạo, khi trưởng thành thì sẽ khoảng 30 ngày và về sau chu kì tái tạo da càng lâu nên cần chăm sóc và ngăn ngừa lão hóa càng sớm càng tốt”.</i>
+						</div>
+						<p>Sữa rửa mặt dạng bọt hay không bọt tốt hơn ạ?</p>
+					</div>
+				</div>
+				<div class="tag_share row">
+					<div class="tag float-left col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12">
+						<p>Tags: <span>Fashion, T-shirt, White</span></p>
+					</div>
+					<div class="share float-right col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+						<p>Chia sẻ: <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-google-plus-g"></i> <i class="fab fa-instagram"></i></p>
+					</div>
+				</div>
+				<div class="comment">
+					<div class="comment_title">
+						<h2>3 Bình luận</h2>
+					</div>
+					<div class="comment_content">
+						<div class="row comment1">
+							<div class="avata col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+								<img src="../assets/images/testimonial-home-1-img-2.png" alt="">
+							</div>
+							<div class="col-xl-10 col-lg-10 col-md-9 col-sm-12 col-12">
+								<div class="comment_title1 row">
+									<div class="title_left col-xl-10 col-lg-10 col-md-9 col-sm-8 col-8">
+										<h5>Tú Phạm</h5>
+										<p>Oct 29, 2020</p>
+									</div>
+									<div class="title_left col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4">
+										<h4 style="color: #686767;" class="row"><i class="fas fa-reply"></i></h4>
+									</div>
+									<p class="comment_title1_text text-justify">Mình thích sử dụng mặt nạ tự nhiên như dưa leo, cà chua cho tiết kiệm, nếu như vậy có thật sự tốt hơn hay không? Sự khác biệt giữa các mặt nạ tự nhiên và các mặt nạ do hãng sản xuất là gì vậy ạ?</p>
+								</div>
+								<div class="comment2">
+									<div class="row">
+										<div class="avata col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+										<img class="width_content" src="../assets/images/testimonial-home-1-img-1.png" alt="">
+									</div>
+									<div class="col-xl-10 col-lg-10 col-md-9 col-sm-12 col-12">
+										<div class="comment_title1 row">
+											<div class="title_left col-xl-10 col-lg-10 col-md-9 col-sm-8 col-8">
+												<h5>Huế Vũ</h5>
+												<p>Oct 29, 2020</p>
+											</div>
+											<div class="title_left col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4">
+												<h4 style="color: #686767;" class="row"><i class="fas fa-reply"></i></h4>
+											</div>
+											<p class="comment_title1_text text-justify">Mặt nạ tự nhiên vẫn có những công dụng nhất định thế nhưng da của chúng ta tồn tại một hàng rào bảo vệ và để thẩm thấu vào sâu bên trong da thì tinh chất cần thật sự nhỏ để có thể xâm nhập vào bên trong. Điều này rất hạn chế với mặt nạ tự nhiên vì thế công dụng của mặt nạ tự nhiên sẽ không hiệu quả bằng công dụng của các loại mặt nạ đã được tinh chế như hiện nay. Đó là điều khác biệt lớn nhất, và khác biệt thứ 2 đó là các loại mặt nạ do hãng sản xuất sẽ được hãng thiết kế để phục vụ cho nhu cầu chuyên sâu như trị mụn, cấp ẩm, chống lão hóa.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="comment2">
+							<div class="row">
+								<div class="avata col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+									<img src="../assets/images/testimonial-home-1-img-2.png" alt="">
+								</div>
+								<div class="col-xl-10 col-lg-10 col-md-9 col-sm-12 col-12">
+									<div class="comment_title1 row">
+										<div class="title_left col-xl-10 col-lg-10 col-md-9 col-sm-8 col-8">
+											<h5>Tú Vũ</h5>
+											<p>Oct 29, 2020</p>
+										</div>
+										<div class="title_left col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4">
+											<h4 style="color: #686767;" class="row"><i class="fas fa-reply"></i></h4>
+										</div>
+										<p class="comment_title1_text text-justify">Sữa rửa mặt dạng bọt hay không bọt tốt hơn ạ?</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="reply">
+					<div class="reply_title">
+						<h2>Hãy để lại các thắc mắc của mọi người</h2>
+					</div>
+					<div class="information">
+						<div class="row">
+							<div class="ip_name col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+								<p>Tên của bạn<span>*</span></p>
+								<input type="text" class="name" placeholder="Enter your name">
+								<div>
+									<p class="error1">Vui lòng nhập tên đầy đủ của bạn</p>
+									<p class="error1">Vui lòng nhập tên của bạn</p>
+								</div>
+							</div>
+							<div class="ip_email col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+								<p>Email của bạn<span>*</span></p>
+								<input type="email" class="email" placeholder="Enter your email">
+								<div>
+									<p class="error2">Định dạng email không hợp lệ</p>
+									<p class="error2">vui lòng nhập địa chỉ email của bạn</p>
+								</div>
+							</div>
+						</div>
+						<div class="review">
+							<p>Đánh giá của bạn</p>
+							<textarea name="" id="" cols="30" rows="10"></textarea>
+						</div>
+					</div>
+					<button class="post_comment">ĐĂNG BÌNH LUẬN</button>
+				</div>			
+			</div>
+			<div class="accessory col-xl-3 col-lg-3">
+				<div class="recent_post">
+					<h5>BÀI ĐĂNG GẦN ĐÂY</h5>
+					<hr>
+					<div class="recent_post_content row">
+						<a href="shop-detail.html"><img src="../assets/images/toner1.png" alt=""></a>
+						<div class="recent_post_content_title">
+							<p>- Mar 1, 2022</p>
+							<a>Mamonde là một thương hiệu mỹ phẩm Hàn Quốc. Lấy cảm hứng từ những loài hoa, Mamonde mang đến những sản phẩm chứa đựng sức sống đáng kinh ngạc và năng lượng khởi sinh từ các loài hoa.</a>
+						</div>
+					</div>
+					<div class="recent_post_content row">
+						<a href="shop-detail.html"><img src="../assets/images/SRM3.png" alt=""></a>
+						<div class="recent_post_content_title">
+							<p>- Mar 1, 2022</p>
+							<a>Sữa rửa mặt dạng gel tạo bọt làm sạch & giảm nhờn cho da dầu nhạy cảm La Roche-Posay Effaclar Purifying Foaming Gel 200ml. Giúp ngăn ngừa và hỗ trợ điều trị mụn tối đa với kết cấu dạng gel trong dễ dàng tạo bọt cùng công thức không chứa dầu, không cồn, an toàn cho làn da. Sản phẩm nhẹ nhàng làm sạch da từ sâu trong lỗ chân lông, loại bỏ bụi bẩn cùng dầu thừa, đồng thời giữ độ pH luôn ở mức cân bằng 5.5 nên sau khi rửa mặt xong, da không hề khô rít, căng rát, mà vẫn mềm mịn, sạch thoáng và đầy sức sống.</a>
+						</div>
+					</div>
+				</div>
+				<div class="custom_menu">
+					<h5>THỰC ĐƠN TÙY CHỈNH</h5>
+					<hr>
+					<ul>
+						<li><a href="">Thông tin giao hàng</a></li>
+						<li><a href="">Tìm kiếm nâng cao</a></li>
+						<li><a href="">Trợ giúp & Câu hỏi thường gặp</a></li>
+						<li><a href="">Vị trí</a></li>
+						<li><a href="">Đơn hàng & Trả hàng</a></li>
+						<li><a href="">Giao hàng tận nơi</a></li>
+						<li><a href="">Hoàn tiền & trả hàng</a></li>
+					</ul>
+				</div>
+				
+				<h5 class="list_a_title">TAGS</h5>
+				<hr>
+				<div class="list_a row">
+					<div class="list_a_content">
+						<a href="">blue</a>
+					</div>
+					<div class="list_a_content">
+						<a href="">black</a>
+					</div>
+					<div class="list_a_content">
+						<a href="">white</a>
+					</div>
+					<div class="list_a_content">
+						<a href="">green</a>
+					</div>
+					<div class="list_a_content">
+						<a href="">yellow</a>
+					</div>
+					<div class="list_a_content">
+						<a href="">gold</a>
+					</div>
+					<div class="list_a_content">
+						<a href="">red</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="footer container-fluid">
+		<div class="cooperate">
+			<div class="row slide_footer owl-carousel owl-theme">
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—cosmetic cartoon png material_4559519.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—lady beauty supplies illustration cartoon_3829359.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—red feminine cosmetics lipstick_4939918.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/logo_phu.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—cartoon female cosmetic bag illustration_4531712.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—sun decoration sunscreen illustration_4639135.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/logo_moi.png" alt=""></a>
+				</div>
+				<div class="item">
+					<a href=""><img src="../assets/images/—Pngtree—red feminine cosmetics lipstick_4939918.png" alt=""></a>
+				</div>		
+			</div>
+		</div>
+		<div class="thanks_recommend">
+			<div class="recommend">
+				<div class="row">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+						<div class="logo_end text-center">
+							<a href=""><img class="w-75" src="../assets/images/logo_chinh.png" alt=""></a>
+						</div>
+						<div class="address_end">
+							<p><i class="fas fa-home"></i> Khanh Hai, Van Hai, Kim Son, Ninh Bình, Viet Nam.</p>
+							<p><i class="fas fa-phone-alt"></i> +01 23456789 </p>
+							<p><i class="fas fa-envelope"></i> vudungnb25@gmail.com</p>
+							<div class="icon">
+								<i class="fab fa-facebook-f"></i>
+								<i class="fab fa-twitter"></i>
+								<i class="fab fa-youtube"></i>
+								<i class="fab fa-google-plus-g"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+						<div class="infomation">
+							<h5>KHÁCH HÀNG</h5>
+							<ul>
+								<li><a href="">Trung Tâm Trợ Giúp</a></li>
+								<li><a href="">Hướng Dẫn Mua Hàng</a></li>
+								<li><a href="">Hướng Dẫn Bán Hàng</a></li>
+								<li><a href="">Vận Chuyển</a></li>
+								<li><a href="">Thanh Toán</a></li>
+								<li><a href="">Trả Hàng & Hoàn Tiền</a></li>
+								<li><a href="">Chăm Sóc Khách Hàng</a></li>
+								<li><a href="">Chính Sách Bảo Hành</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+						<div class="our_company">
+							<h5>CÔNG TY</h5>
+							<ul>
+								<li><a href="">Chuyển</a></li>
+								<li><a href="">Thông báo pháp lý</a></li>
+								<li><a href="">Sơ đồ trang web</a></li>
+								<li><a href="">Thanh toán an toàn</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a href="">Về chúng tôi</a></li>
+								<li><a href="">Nghề nghiệp</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12">
+						<div class="my_accout">
+							<h5>TÀI KHOẢN </h5>
+							<ul>
+								<li><a href="">Thông tin giao hàng</a></li>
+								<li><a href="">tìm kiếm nâng cao</a></li>
+								<li><a href="">Trợ giúp & Câu hỏi thường gặp</a></li>
+								<li><a href="">Vị Trí</a></li>
+								<li><a href="">Đơn hàng & Trả hàng</a></li>
+								<li><a href="">Giao hàng tận nơi</a></li>
+								<li><a href="">Hoàn tiền & trả hàng</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
+						<div class="opening_time">
+							<h5>Thời gian mở cửa</h5>
+							<ul>
+								<li><a href="">Hai-Sáu: 8AM - 10PM</a></li>
+								<li><a href="">Bảy: 9AM - 8PM</a></li>
+								<li><a href="">CN: 14hPM - 18hPM</a></li>
+								<li><a href="">Làm việc tất cả các ngày lễ</a></li>
+								<li><a href=""><h6>Tải ứng dụng của chúng tôi</h6></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="the_end text-center">
+			<div class="row">
+				<div class="the_end_left col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+					<p>Copyright <i class="far fa-copyright"></i> <a href="">DungThiVu.</a>All Rights Reserved</p>
+				</div>
+				<div class="the_end_right text-right col-md-6 col-xl-6 col-lg-6 col-sm-12 col-12">
+					<img src="../assets/images/payment.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/library/aos/aos.js"></script>
+	<script type="text/javascript" src="../assets/library/owl_carowsel/assets/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="../assets/js/blog-detail.js"></script>
+	<script type="text/javascript" src="../assets/js/header.js"></script>
+</body>
+</html>
